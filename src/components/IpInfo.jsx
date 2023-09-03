@@ -18,6 +18,7 @@ export default class IpInfo extends Component {
     }
 
     componentDidMount() {
+        
         getInfo().then(data => {
             this.setState({
                 info: data,
