@@ -9,10 +9,11 @@ export default function Info(props) {
             <h6>{props.item.city}</h6>
             <p>{props.item.connection.isp}</p>
             <div className="footer">
-                <p>{props.item.ip}</p>
+                <p>ip: {props.item.ip}</p>
                 <p>latitude: {props.item.latitude}</p>
                 <p>longitude: {props.item.longitude}</p>
             </div>
+
         </div>
     )
 }
